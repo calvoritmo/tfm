@@ -1,0 +1,265 @@
+@prefix ns1: <https://calvoritmo.com/tfm/datamodel/fetch/> .
+@prefix ns2: <https://calvoritmo.com/tfm/meta/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://calvoritmo.com/tfm/data/fetch/cf7cc1a4-0bf4-4353-b9ea-b939bf971d14> a ns2:Stage ;
+    ns1:hasMainSection <https://calvoritmo.com/tfm/data/fetch/da6fb86e-772a-44ba-bc4a-9b32b152dce9> ;
+    ns2:hasParentStage ns2:bottom_stage ;
+    ns2:stageFriendlyName "Fetch Stage" .
+
+<https://calvoritmo.com/tfm/data/fetch/00f2094d-d34c-4806-b37b-d74c9fa782e2> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/ffdd70c6-f925-4e2f-bd39-3e8b483f08fd> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/1b73380d-c091-4dcc-acc9-b40d272ba80a> ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first <https://calvoritmo.com/tfm/data/fetch/4f08f01a-8202-46a1-950b-639f730a00b9> ;
+                            rdf:rest [ a rdf:List ;
+                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/8bfab7d0-f3a5-4f5e-8102-36efd665ef2a> ;
+                                    rdf:rest () ] ] ] ] ;
+    ns1:hasSubsections [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/efd9154e-1e4b-4c3f-9aa7-8dfacf34b6d4> ;
+            rdf:rest () ] ;
+    ns1:hasTitle "Legal status" .
+
+<https://calvoritmo.com/tfm/data/fetch/0212f617-c21a-482d-9c71-34d1193d9d7a> a ns1:Text ;
+    ns1:hasText "The discovery of <a href=\"http://dbpedia.org/resource/Fault_scarp\">fault scarp</a> cliffs suggest that the Moon has shrunk by about 90 metres (300 ft)  within the past billion years. Similar shrinkage features exist on <a href=\"http://dbpedia.org/resource/Geology_of_Mercury\">Mercury</a>. Mare Frigoris, a basin near the north pole long assumed to be geologically dead, has cracked and shifted. Since the Moon doesn't have tectonic plates, its tectonic activity is slow and cracks develop as it loses heat." .
+
+<https://calvoritmo.com/tfm/data/fetch/035043c5-cccb-48ad-9b84-31fb554f4b8f> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/510aff9f-33e8-49f0-a25a-44bdf408c1a1> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/3bba2c47-58f6-429d-bcfe-5f3308265537> ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first <https://calvoritmo.com/tfm/data/fetch/d4e8462f-efa8-4fe1-a1ef-1d9b1654ac99> ;
+                            rdf:rest () ] ] ] ;
+    ns1:hasSubsections [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/75ca4651-6c00-4da0-b948-d0b4097c460b> ;
+            rdf:rest () ] ;
+    ns1:hasTitle "Internal structure" .
+
+<https://calvoritmo.com/tfm/data/fetch/0dcbbef7-51ff-4ab7-9e21-f60c93273134> a ns1:ListItem ;
+    ns1:hasText "<a href=\"http://dbpedia.org/resource/Moon\">↑ </a> Between 18.29° and 28.58° to Earth's <a href=\"http://dbpedia.org/resource/Equator\">equator</a>." .
+
+<https://calvoritmo.com/tfm/data/fetch/15f8b169-a889-477b-871e-0c721800049e> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> More accurately, the Moon's mean synodic period (between mean solar conjunctions) is 29.530589 days (29 d 12 h 44 min 02.9 s) (<i>Explanatory Supplement to the Astronomical Ephemeris</i>, 1961, at p.107).
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/1b73380d-c091-4dcc-acc9-b40d272ba80a> a ns1:Text ;
+    ns1:hasText "In 2020, U.S. President <a href=\"http://dbpedia.org/resource/Donald_Trump\">Donald Trump</a> signed an executive order called 'Encouraging International Support for the Recovery and Use of Space Resources'.  The order emphasizes that 'the United States does not view outer space as a 'global commons'' and calls the Moon Agreement 'a failed attempt at constraining free enterprise.'" .
+
+<https://calvoritmo.com/tfm/data/fetch/1de38600-79da-4044-9446-a3319aac5628> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> On average, the Moon covers an area of 0.21078 square degrees on the night sky.
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/1f7f5134-64e6-4c94-aa8e-7fad6e93cdd1> a ns1:List ;
+    ns1:hasListItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/0dcbbef7-51ff-4ab7-9e21-f60c93273134> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/2a66b194-1ac6-4285-9f3c-863f91e0f543> ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first <https://calvoritmo.com/tfm/data/fetch/a0c4c070-832a-4aaa-b380-616c8ababff8> ;
+                            rdf:rest [ a rdf:List ;
+                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/7753c21f-98ff-4bb8-a9aa-f1d1decceee0> ;
+                                    rdf:rest [ a rdf:List ;
+                                            rdf:first <https://calvoritmo.com/tfm/data/fetch/4c220e1b-b92d-4ea6-9a48-e124afe54b26> ;
+                                            rdf:rest [ a rdf:List ;
+                                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/6e5bd168-4469-4d83-8688-20e27d8d6fd3> ;
+                                                    rdf:rest [ a rdf:List ;
+                                                            rdf:first <https://calvoritmo.com/tfm/data/fetch/ce1e3854-9009-4718-b7b0-1414477dd95c> ;
+                                                            rdf:rest [ a rdf:List ;
+                                                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/c679e585-6a36-4e5c-92ba-40df384329ac> ;
+                                                                    rdf:rest [ a rdf:List ;
+                                                                            rdf:first <https://calvoritmo.com/tfm/data/fetch/709ec9ad-4841-4c52-9dc9-7a689b3453ae> ;
+                                                                            rdf:rest [ a rdf:List ;
+                                                                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/15f8b169-a889-477b-871e-0c721800049e> ;
+                                                                                    rdf:rest [ a rdf:List ;
+                                                                                            rdf:first <https://calvoritmo.com/tfm/data/fetch/af0b2d6d-74e1-4093-b517-6983627ceaf5> ;
+                                                                                            rdf:rest [ a rdf:List ;
+                                                                                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/b5efa576-bf2a-4d47-ab53-b2916c49dc88> ;
+                                                                                                    rdf:rest [ a rdf:List ;
+                                                                                                            rdf:first <https://calvoritmo.com/tfm/data/fetch/1de38600-79da-4044-9446-a3319aac5628> ;
+                                                                                                            rdf:rest () ] ] ] ] ] ] ] ] ] ] ] ] ] .
+
+<https://calvoritmo.com/tfm/data/fetch/2a66b194-1ac6-4285-9f3c-863f91e0f543> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> There are a number of <a href="http://dbpedia.org/resource/Near-Earth_asteroid">near-Earth asteroids</a>, including <a href="http://dbpedia.org/resource/3753_Cruithne">3753 Cruithne</a>, that are <a href="http://dbpedia.org/resource/Co-orbital">co-orbital</a> with Earth: their orbits bring them close to Earth for periods of time but then alter in the long term (Morais et al, 2002). These are <a href="http://dbpedia.org/resource/Quasi-satellite">quasi-satellites</a> – they are not moons as they do not orbit Earth. For more information, see <a href="http://dbpedia.org/resource/Other_moons_of_Earth">Other moons of Earth</a>.
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/3bba2c47-58f6-429d-bcfe-5f3308265537> a ns1:Text ;
+    ns1:hasText "Crystallization of this magma ocean would have created a <a href=\"http://dbpedia.org/resource/Mafic\">mafic</a> mantle from the <a href=\"http://dbpedia.org/resource/Precipitation_(chemistry)\">precipitation</a> and sinking of the minerals <a href=\"http://dbpedia.org/resource/Olivine\">olivine</a>, <a href=\"http://dbpedia.org/resource/Clinopyroxene\">clinopyroxene</a>, and <a href=\"http://dbpedia.org/resource/Orthopyroxene\">orthopyroxene</a>; after about three-quarters of the magma ocean had crystallised, lower-density <a href=\"http://dbpedia.org/resource/Plagioclase\">plagioclase</a> minerals could form and float into a crust atop. The final liquids to crystallise would have been initially sandwiched between the crust and mantle, with a high abundance of <a href=\"http://dbpedia.org/resource/Compatibility_(geochemistry)\">incompatible</a> and heat-producing elements. Consistent with this perspective, geochemical mapping made from orbit suggests a crust of mostly <a href=\"http://dbpedia.org/resource/Anorthosite\">anorthosite</a>. The <a href=\"http://dbpedia.org/resource/Moon_rock\">Moon rock</a> samples of the flood lavas that erupted onto the surface from partial melting in the mantle confirm the mafic mantle composition, which is more iron-rich than that of Earth. The crust is on average about 50 kilometres (31 mi) thick." .
+
+<https://calvoritmo.com/tfm/data/fetch/3e16557a-e125-4ed1-b81d-42c34c442146> a ns1:Text ;
+    ns1:hasText "The <b>Moon</b> is <a href=\"http://dbpedia.org/resource/Earth\">Earth</a>'s only <a href=\"http://dbpedia.org/resource/Natural_satellite\">natural satellite</a>. At about one-quarter the diameter of Earth (comparable to the width of <a href=\"http://dbpedia.org/resource/Australia_(continent)\">Australia</a>), it is the <a href=\"http://dbpedia.org/resource/List_of_natural_satellites\">fifth largest satellite</a> in the Solar System, the largest satellite in the <a href=\"http://dbpedia.org/resource/Solar_System\">Solar System</a> relative to its major planet,  and larger than any known <a href=\"http://dbpedia.org/resource/Dwarf_planet\">dwarf planet</a>. The Moon is a <a href=\"http://dbpedia.org/resource/Planetary-mass_object\">planetary-mass object</a> that formed a <a href=\"http://dbpedia.org/resource/Planetary_differentiation\">differentiated</a> <a href=\"http://dbpedia.org/resource/Terrestrial_planet\">rocky</a> body, making it a <a href=\"http://dbpedia.org/resource/Satellite_planet\">satellite planet</a> under the <a href=\"http://dbpedia.org/resource/Geophysical_definition_of_planet\">geophysical definitions of the term</a>. It lacks any significant <a href=\"http://dbpedia.org/resource/Atmosphere_of_the_Moon\">atmosphere</a>, <a href=\"http://dbpedia.org/resource/Hydrosphere\">hydrosphere</a>, or <a href=\"http://dbpedia.org/resource/Magnetic_field_of_the_Moon\">magnetic field</a>. Its surface gravity is about one-sixth of Earth's (0.1654 <a href=\"http://dbpedia.org/resource/G-force\">g</a>).  <a href=\"http://dbpedia.org/resource/Jupiter\">Jupiter</a>'s moon <a href=\"http://dbpedia.org/resource/Io_(moon)\">Io</a> is the only satellite in the Solar System known to have a higher surface gravity and density." .
+
+<https://calvoritmo.com/tfm/data/fetch/488ddccb-9c12-4cf3-a759-b823259ec23b> a ns1:Text ;
+    ns1:hasText "The most widely accepted origin explanation posits that the Moon formed 4.51 billion years ago, <a href=\"http://dbpedia.org/resource/Age_of_the_Earth\">not long after Earth</a>, out of the debris from a <a href=\"http://dbpedia.org/resource/Giant-impact_hypothesis\">giant impact</a> between the planet and a hypothesized <a href=\"http://dbpedia.org/resource/Mars\">Mars</a>-sized body called <a href=\"http://dbpedia.org/resource/Theia_(planet)\">Theia</a>. It then receded to a wider orbit because of <a href=\"http://dbpedia.org/resource/Tidal_acceleration\">tidal interaction</a> with the Earth. The near side of the Moon is marked by dark volcanic <a href=\"http://dbpedia.org/resource/Lunar_mare\">maria</a> ('seas'), which fill the spaces between bright ancient crustal highlands and prominent <a href=\"http://dbpedia.org/resource/Impact_crater\">impact craters</a>. Most of the large <a href=\"http://dbpedia.org/resource/Impact_basin\">impact basins</a> and mare surfaces were in place by the end of the <a href=\"http://dbpedia.org/resource/Imbrian\">Imbrian</a> period, some three billion years ago. The lunar surface is relatively non-reflective, with a <a href=\"http://dbpedia.org/resource/Reflectance\">reflectance</a> just slightly brighter than that of worn <a href=\"http://dbpedia.org/resource/Asphalt_concrete\">asphalt</a>. However, because it has a large <a href=\"http://dbpedia.org/resource/Angular_diameter\">angular diameter</a>, the <a href=\"http://dbpedia.org/resource/Full_moon\">full moon</a> is the <a href=\"http://dbpedia.org/resource/List_of_brightest_natural_objects_in_the_sky\">brightest celestial object</a> in the night sky. The Moon's apparent size is nearly the same as that of the Sun, allowing it to cover the Sun almost completely during a total <a href=\"http://dbpedia.org/resource/Solar_eclipse\">solar eclipse</a>." .
+
+<https://calvoritmo.com/tfm/data/fetch/4c220e1b-b92d-4ea6-9a48-e124afe54b26> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> Lucey et al. (2006) give 107 particles cm−3 by day and 105 particles cm−3 by night. Along with equatorial surface temperatures of 390 <a href="http://dbpedia.org/resource/Kelvin">K</a> by day and 100 K by night, the <a href="http://dbpedia.org/resource/Ideal_gas_law">ideal gas law</a> yields the pressures given in the infobox (rounded to the nearest <a href="http://dbpedia.org/resource/Order_of_magnitude">order of magnitude</a>): 10−7 <a href="http://dbpedia.org/resource/Pascal_(unit)">Pa</a> by day and 10−10 Pa by night.
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/4f08f01a-8202-46a1-950b-639f730a00b9> a ns1:Text ;
+    ns1:hasText "In the face of such increasing commercial and national interest, particularly prospecting territories, US lawmakers have introduced regulation for the conservation of historic landing sites and interest groups have argued for making such sites <a href=\"http://dbpedia.org/resource/World_Heritage_Site\">World Heritage Sites</a> and zones of scientific value protected zones, all of which add to the legal availability and territorialization of the Moon." .
+
+<https://calvoritmo.com/tfm/data/fetch/510aff9f-33e8-49f0-a25a-44bdf408c1a1> a ns1:Text ;
+    ns1:hasText "The Moon is a <a href=\"http://dbpedia.org/resource/Planetary_differentiation\">differentiated</a> body that was initially in <a href=\"http://dbpedia.org/resource/Hydrostatic_equilibrium\">hydrostatic equilibrium</a> but has since departed from this condition. It has a <a href=\"http://dbpedia.org/resource/Geochemistry\">geochemically</a> distinct <a href=\"http://dbpedia.org/resource/Crust_(geology)\">crust</a>, <a href=\"http://dbpedia.org/resource/Mantle_(geology)\">mantle</a>, and <a href=\"http://dbpedia.org/resource/Planetary_core\">core</a>. The Moon has a solid iron-rich inner core with a radius possibly as small as 240 kilometres (150 mi) and a fluid outer core primarily made of liquid iron with a radius of roughly 300 kilometres (190 mi). Around the core is a partially molten boundary layer with a radius of about 500 kilometres (310 mi). This structure is thought to have developed through the <a href=\"http://dbpedia.org/resource/Fractional_crystallization_(geology)\">fractional crystallization</a> of a global magma ocean shortly after the Moon's formation 4.5 billion years ago." .
+
+<https://calvoritmo.com/tfm/data/fetch/56284426-edd0-4355-9991-4ce6ad450792> a ns1:Text ;
+    ns1:hasText "The surface of the Moon is an extreme environment with temperatures that range from 140 °C down to −171 °C, an atmospheric pressure of 10−10 Pa, and high levels of <a href=\"http://dbpedia.org/resource/Ionizing_radiation\">ionizing radiation</a> from the Sun and <a href=\"http://dbpedia.org/resource/Cosmic_ray\">cosmic rays</a>. The exposed surfaces of spacecraft are considered unlikely to harbor bacterial spores after just one lunar orbit. The surface gravity of the Moon is approximately 1.625 m/s2, about 16.6% that on Earth's surface or 0.166 <a href=\"http://dbpedia.org/resource/Standard_gravity\"><i>ɡ</i></a>." .
+
+<https://calvoritmo.com/tfm/data/fetch/5bea5de6-7633-4156-b387-b6a32eb37ba5> a ns1:ListItem ;
+    ns1:hasText "<a href=\"http://dbpedia.org/resource/Moonbase\">Moon Village Association</a> (MVA)" .
+
+<https://calvoritmo.com/tfm/data/fetch/5c32269d-5c0c-4c17-bc0d-4e9db05968d7> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/c6241cc9-5bba-488b-9a7b-fc751028f73d> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/0212f617-c21a-482d-9c71-34d1193d9d7a> ;
+                    rdf:rest () ] ] ;
+    ns1:hasSubsections [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/f5454012-6c3b-4c0b-941a-664e0136648a> ;
+            rdf:rest () ] ;
+    ns1:hasTitle "Surface features" .
+
+<https://calvoritmo.com/tfm/data/fetch/6c6a2116-caea-4017-a989-479bc77d01bc> a ns1:Text ;
+    ns1:hasText "The Moon is a very slightly <a href=\"http://dbpedia.org/resource/Scalene_ellipsoid\">scalene ellipsoid</a> due to tidal stretching, with its long axis displaced 30° from facing the Earth, due to gravitational anomalies from impact basins. Its shape is more elongated than current tidal forces can account for. This 'fossil bulge' indicates that the Moon solidified when it orbited at half its current distance to the Earth, and that it is now too cold for its shape to adjust to its orbit." .
+
+<https://calvoritmo.com/tfm/data/fetch/6e42b7d7-8602-401f-be56-ff56d0d8dc6f> a ns1:Text ;
+    ns1:hasText """Both the Moon's prominence in the earthly sky and its regular cycle of phases have provided cultural references and influences for human societies throughout history. Such influences can be found in language, calendar systems, art, and mythology.
+The first artificial object to reach the Moon was the <a href="http://dbpedia.org/resource/Soviet_Union">Soviet Union</a>'s <a href="http://dbpedia.org/resource/Luna_2">Luna 2</a> uncrewed <a href="http://dbpedia.org/resource/Spacecraft">spacecraft</a> in 1959; this was followed by the first successful soft landing by <a href="http://dbpedia.org/resource/Luna_9">Luna 9</a> in 1966. The only human lunar missions to date have been those of the <a href="http://dbpedia.org/resource/United_States">United States</a>' <a href="http://dbpedia.org/resource/Apollo_program">Apollo program</a>, which landed twelve men on the surface between 1969 and 1972. These and later uncrewed missions returned <a href="http://dbpedia.org/resource/Moon_rock">lunar rocks</a> that have been used to develop a detailed <a href="http://dbpedia.org/resource/Geology_of_the_Moon">geological understanding</a> of the <a href="http://dbpedia.org/resource/Origin_of_the_Moon">Moon's origins</a>, <a href="http://dbpedia.org/resource/Internal_structure_of_the_Moon">internal structure</a>, and subsequent history.""" .
+
+<https://calvoritmo.com/tfm/data/fetch/6e5bd168-4469-4d83-8688-20e27d8d6fd3> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> <a href="http://dbpedia.org/resource/Charon_(moon)">Charon</a> is larger with respect to <a href="http://dbpedia.org/resource/Pluto">Pluto</a>, but Pluto is a <a href="http://dbpedia.org/resource/Dwarf_planet">dwarf planet</a>.
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/6ed89aff-d358-43af-ba30-4dd29292a70f> a ns1:ListItem ;
+    ns1:hasText "<a href=\"http://dbpedia.org/resource/International_Space_Exploration_Coordination_Group\">International Space Exploration Coordination Group</a> (ISECG)" .
+
+<https://calvoritmo.com/tfm/data/fetch/6ee9e4fc-5ee6-463f-89dc-93448723b54d> a ns1:ListItem ;
+    ns1:hasText "<a href=\"http://dbpedia.org/resource/International_Lunar_Exploration_Working_Group\">International Lunar Exploration Working Group</a> (ILEWG)" .
+
+<https://calvoritmo.com/tfm/data/fetch/709ec9ad-4841-4c52-9dc9-7a689b3453ae> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> More accurately, the Moon's mean sidereal period (fixed star to fixed star) is 27.321661 days (27 d 07 h 43 min 11.5 s), and its mean tropical orbital period (from equinox to equinox) is 27.321582 days (27 d 07 h 43 min 04.7 s) (<i>Explanatory Supplement to the Astronomical Ephemeris</i>, 1961, at p.107).
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/75ca4651-6c00-4da0-b948-d0b4097c460b> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/56284426-edd0-4355-9991-4ce6ad450792> ;
+            rdf:rest () ] ;
+    ns1:hasSubsections [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/eae46922-5ea3-4e1e-987c-670cd4332b3a> ;
+            rdf:rest () ] ;
+    ns1:hasTitle "Surface conditions" .
+
+<https://calvoritmo.com/tfm/data/fetch/7753c21f-98ff-4bb8-a9aa-f1d1decceee0> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> The range of angular size values given are based on simple scaling of the following values given in the fact sheet reference: at an Earth-equator to Moon-centre distance of 378 000 km, the <a href="http://dbpedia.org/resource/Angular_diameter">angular size</a> is 1896 <a href="http://dbpedia.org/resource/Arcsecond">arcseconds</a>. The same fact sheet gives extreme Earth–Moon distances of 407 000 km and 357 000 km. For the maximum angular size, the minimum distance has to be corrected for Earth's equatorial radius of 6 378 km, giving 350 600 km.
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/836c17ba-dc40-43bb-921d-ea55fcd21240> a ns1:Text ;
+    ns1:hasText "In light of future development on the Moon some international and multi-<a href=\"http://dbpedia.org/resource/Space_agency\">space agency</a> organizations have been created:" .
+
+<https://calvoritmo.com/tfm/data/fetch/8bfab7d0-f3a5-4f5e-8102-36efd665ef2a> a ns1:Text ;
+    ns1:hasText "The <i>Declaration of the Rights of the Moon</i> was created by a group of 'lawyers, space archaeologists and concerned citizens' in 2021, drawing on precedents in the <a href=\"http://dbpedia.org/resource/Rights_of_Nature\">Rights of Nature</a> movement and the concept of legal personality for non-human entities in space." .
+
+<https://calvoritmo.com/tfm/data/fetch/a0c4c070-832a-4aaa-b380-616c8ababff8> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> The <i>maximum value</i> is given based on scaling of the brightness from the value of −12.74 given for an equator to Moon-centre distance of 378 000 km in the NASA factsheet reference to the minimum Earth–Moon distance given there, after the latter is corrected for Earth's equatorial radius of 6 378 km, giving 350 600 km. The <i>minimum value</i> (for a distant <a href="http://dbpedia.org/resource/New_moon">new moon</a>) is based on a similar scaling using the maximum Earth–Moon distance of 407 000 km (given in the factsheet) and by calculating the brightness of the <a href="http://dbpedia.org/resource/Earthshine">earthshine</a> onto such a new moon. The brightness of the earthshine is [ Earth <a href="http://dbpedia.org/resource/Albedo">albedo</a> × (<a href="http://dbpedia.org/resource/Earth_radius">Earth radius</a> / Radius of <a href="http://dbpedia.org/resource/Orbit_of_the_Moon">Moon's orbit</a>)2 ] relative to the direct solar illumination that occurs for a full moon. (Earth albedo = 0.367; Earth radius = (polar radius × equatorial radius)½ = 6 367 km.)
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/a62d9e6a-6f67-45fd-8fe1-38442643fd87> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/6c6a2116-caea-4017-a989-479bc77d01bc> ;
+            rdf:rest () ] ;
+    ns1:hasSubsections [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/035043c5-cccb-48ad-9b84-31fb554f4b8f> ;
+            rdf:rest () ] ;
+    ns1:hasTitle "Physical characteristics" .
+
+<https://calvoritmo.com/tfm/data/fetch/af0b2d6d-74e1-4093-b517-6983627ceaf5> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> The Sun's <a href="http://dbpedia.org/resource/Apparent_magnitude">apparent magnitude</a> is −26.7, while the full moon's apparent magnitude is −12.7.
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/b5efa576-bf2a-4d47-ab53-b2916c49dc88> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> See graph in <a href="http://dbpedia.org/resource/Sun">Sun#Life phases</a>. At present, the diameter of the Sun is increasing at a rate of about five percent per billion years. This is very similar to the rate at which the apparent angular diameter of the Moon is decreasing as it recedes from Earth.
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/b70a2d43-5166-4f77-9759-81f896ec043a> a ns1:List ;
+    ns1:hasListItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/6ee9e4fc-5ee6-463f-89dc-93448723b54d> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/5bea5de6-7633-4156-b387-b6a32eb37ba5> ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first <https://calvoritmo.com/tfm/data/fetch/6ed89aff-d358-43af-ba30-4dd29292a70f> ;
+                            rdf:rest () ] ] ] .
+
+<https://calvoritmo.com/tfm/data/fetch/b96f0afc-3aca-4205-92c1-2288b490746c> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/1f7f5134-64e6-4c94-aa8e-7fad6e93cdd1> ;
+            rdf:rest () ] ;
+    ns1:hasSubsections () ;
+    ns1:hasTitle "Explanatory notes" .
+
+<https://calvoritmo.com/tfm/data/fetch/c6241cc9-5bba-488b-9a7b-fc751028f73d> a ns1:Text ;
+    ns1:hasText "The <a href=\"http://dbpedia.org/resource/Topography_of_the_Moon\">topography of the Moon</a> has been measured with <a href=\"http://dbpedia.org/resource/Laser_altimetry\">laser altimetry</a> and <a href=\"http://dbpedia.org/resource/Stereoscopy\">stereo image analysis</a>. Its most extensive <a href=\"http://dbpedia.org/resource/List_of_features_on_the_Moon\">topographic feature</a> is the giant far-side <a href=\"http://dbpedia.org/resource/South_Pole–Aitken_basin\">South Pole–Aitken basin</a>, some 2,240 km (1,390 mi) in diameter, the largest crater on the Moon and the second-largest confirmed impact <a href=\"http://dbpedia.org/resource/List_of_largest_craters_in_the_Solar_System\">crater in the Solar System</a>. At 13 km (8.1 mi) deep, its floor is the lowest point on the surface of the Moon. The highest elevations of the Moon's surface are located directly to the northeast, which might have been thickened by the oblique formation impact of the South Pole–Aitken basin. Other large impact basins such as <a href=\"http://dbpedia.org/resource/Mare_Imbrium\">Imbrium</a>, <a href=\"http://dbpedia.org/resource/Mare_Serenitatis\">Serenitatis</a>, <a href=\"http://dbpedia.org/resource/Mare_Crisium\">Crisium</a>, <a href=\"http://dbpedia.org/resource/Mare_Smythii\">Smythii</a>, and <a href=\"http://dbpedia.org/resource/Mare_Orientale\">Orientale</a> possess regionally low elevations and elevated rims. The far side of the lunar surface is on average about 1.9 km (1.2 mi) higher than that of the near side." .
+
+<https://calvoritmo.com/tfm/data/fetch/c679e585-6a36-4e5c-92ba-40df384329ac> a ns1:ListItem ;
+    ns1:hasText "<a href=\"http://dbpedia.org/resource/Moon\">↑ </a> There is no strong correlation between the sizes of planets and the sizes of their satellites. Larger planets tend to have more satellites, both large and small, than smaller planets." .
+
+<https://calvoritmo.com/tfm/data/fetch/cb77fbff-8826-422a-bc48-b4d319cbf294> a ns1:Text ;
+    ns1:hasText "" .
+
+<https://calvoritmo.com/tfm/data/fetch/ce1e3854-9009-4718-b7b0-1414477dd95c> a ns1:ListItem ;
+    ns1:hasText """<a href="http://dbpedia.org/resource/Moon">↑ </a> With 27% the diameter and 60% the density of Earth, the Moon has 1.23% of the mass of Earth. The moon <a href="http://dbpedia.org/resource/Charon_(moon)">Charon</a> is larger relative to its primary <a href="http://dbpedia.org/resource/Pluto">Pluto</a>, but Pluto is now considered to be a <a href="http://dbpedia.org/resource/Dwarf_planet">dwarf planet</a>.
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/d4e8462f-efa8-4fe1-a1ef-1d9b1654ac99> a ns1:Text ;
+    ns1:hasText "The Moon is the second-densest satellite in the Solar System, after <a href=\"http://dbpedia.org/resource/Io_(moon)\">Io</a>. However, the inner core of the Moon is small, with a radius of about 350 kilometres (220 mi) or less, around 20% of the radius of the Moon. Its composition is not well understood, but is probably metallic iron alloyed with a small amount of sulfur and nickel; analyses of the Moon's time-variable rotation suggest that it is at least partly molten. The pressure at the lunar core is estimated to be 5 GPa (49,000 atm)." .
+
+<https://calvoritmo.com/tfm/data/fetch/da6fb86e-772a-44ba-bc4a-9b32b152dce9> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/cb77fbff-8826-422a-bc48-b4d319cbf294> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/3e16557a-e125-4ed1-b81d-42c34c442146> ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first <https://calvoritmo.com/tfm/data/fetch/e1b7bed5-6e6c-4fd6-b2d3-8c59fb8f175c> ;
+                            rdf:rest [ a rdf:List ;
+                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/488ddccb-9c12-4cf3-a759-b823259ec23b> ;
+                                    rdf:rest [ a rdf:List ;
+                                            rdf:first <https://calvoritmo.com/tfm/data/fetch/6e42b7d7-8602-401f-be56-ff56d0d8dc6f> ;
+                                            rdf:rest () ] ] ] ] ] ;
+    ns1:hasSubsections [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/a62d9e6a-6f67-45fd-8fe1-38442643fd87> ;
+            rdf:rest () ] ;
+    ns1:hasTitle "Moon" .
+
+<https://calvoritmo.com/tfm/data/fetch/e1b7bed5-6e6c-4fd6-b2d3-8c59fb8f175c> a ns1:Text ;
+    ns1:hasText "Orbiting Earth at an <a href=\"http://dbpedia.org/resource/Lunar_distance_(astronomy)\">average distance</a> of 384,400 km (238,900 mi), or about 30 times Earth's diameter, its gravitational influence <a href=\"http://dbpedia.org/resource/Tidal_acceleration\">very slowly lengthens</a> Earth's day and is the main driver of Earth's <a href=\"http://dbpedia.org/resource/Tide\">tides</a>. The <a href=\"http://dbpedia.org/resource/Orbit_of_the_Moon\">Moon's orbit</a> around Earth has a <a href=\"http://dbpedia.org/resource/Sidereal_period\">sidereal period</a> of 27.3 days. During each <a href=\"http://dbpedia.org/resource/Synodic_period\">synodic period</a> of 29.5 days, the amount of visible surface illuminated by the Sun varies from none up to 100%, resulting in <a href=\"http://dbpedia.org/resource/Lunar_phase\">lunar phases</a> that form the basis for the months of a <a href=\"http://dbpedia.org/resource/Lunar_calendar\">lunar calendar</a>. The Moon is <a href=\"http://dbpedia.org/resource/Tidal_locking\">tidally locked</a> to Earth, which means that the length of a full rotation of the Moon on its own axis causes its same side (<a href=\"http://dbpedia.org/resource/Near_side_of_the_Moon\">the near side</a>) to always face Earth, and the somewhat longer <a href=\"http://dbpedia.org/resource/Lunar_day\">lunar day</a> is the same as the synodic period. That said, 59% of the total lunar surface can be seen from Earth through shifts in perspective due to <a href=\"http://dbpedia.org/resource/Libration\">libration</a>." .
+
+<https://calvoritmo.com/tfm/data/fetch/eae46922-5ea3-4e1e-987c-670cd4332b3a> a ns1:Section ;
+    ns1:hasSectionItems () ;
+    ns1:hasSubsections [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/5c32269d-5c0c-4c17-bc0d-4e9db05968d7> ;
+            rdf:rest () ] ;
+    ns1:hasTitle "Geology" .
+
+<https://calvoritmo.com/tfm/data/fetch/efd9154e-1e4b-4c3f-9aa7-8dfacf34b6d4> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/836c17ba-dc40-43bb-921d-ea55fcd21240> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/b70a2d43-5166-4f77-9759-81f896ec043a> ;
+                    rdf:rest () ] ] ;
+    ns1:hasSubsections () ;
+    ns1:hasTitle "Coordination" .
+
+<https://calvoritmo.com/tfm/data/fetch/f5454012-6c3b-4c0b-941a-664e0136648a> a ns1:Section ;
+    ns1:hasSectionItems () ;
+    ns1:hasSubsections [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/00f2094d-d34c-4806-b37b-d74c9fa782e2> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/b96f0afc-3aca-4205-92c1-2288b490746c> ;
+                    rdf:rest () ] ] ;
+    ns1:hasTitle " Observation and exploration" .
+
+<https://calvoritmo.com/tfm/data/fetch/ffdd70c6-f925-4e2f-bd39-3e8b483f08fd> a ns1:Text ;
+    ns1:hasText """Although <i><a href="http://dbpedia.org/resource/Luna_program">Luna</a></i> landers scattered pennants of the <a href="http://dbpedia.org/resource/Soviet_Union">Soviet Union</a> on the Moon, and <a href="http://dbpedia.org/resource/Lunar_Flag_Assembly">U.S. flags</a> were symbolically planted at their landing sites by the <a href="http://dbpedia.org/resource/List_of_Apollo_astronauts">Apollo astronauts</a>, no nation claims ownership of any part of the Moon's surface. Russia, China, India, and the U.S. are party to the 1967 <a href="http://dbpedia.org/resource/Outer_Space_Treaty">Outer Space Treaty</a>, which defines the Moon and all outer space as the '<a href="http://dbpedia.org/resource/Common_heritage_of_mankind">province of all mankind</a>'. This treaty restricts the use of the Moon to peaceful purposes, explicitly banning military installations and <a href="http://dbpedia.org/resource/Weapons_of_mass_destruction">weapons of mass destruction</a>.
+The 1979 <a href="http://dbpedia.org/resource/Moon_Treaty">Moon Agreement</a> was created to restrict the exploitation of the <a href="http://dbpedia.org/resource/Lunar_resources">Moon's resources</a> by any single nation, leaving it to a yet unspecified international regulatory regime, but as of January 2020, it has been signed and ratified by only 18 nations, none of which engages in self-launched <a href="http://dbpedia.org/resource/Human_spaceflight">human space exploration</a>. Although several individuals have made <a href="http://dbpedia.org/resource/Extraterrestrial_real_estate">claims to the Moon</a> in whole or in part, none of these are considered credible.""" .
+

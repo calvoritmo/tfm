@@ -1,0 +1,97 @@
+@prefix ns1: <https://calvoritmo.com/tfm/datamodel/fetch/> .
+@prefix ns2: <https://calvoritmo.com/tfm/meta/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://calvoritmo.com/tfm/data/fetch/35b161be-81bc-4f5d-a926-26aeca5a0b31> a ns2:Stage ;
+    ns1:hasMainSection <https://calvoritmo.com/tfm/data/fetch/301f6612-c706-4d72-a66e-4aaa15f00a27> ;
+    ns2:hasParentStage ns2:bottom_stage ;
+    ns2:stageFriendlyName "Fetch Stage" .
+
+<https://calvoritmo.com/tfm/data/fetch/13b35934-c374-4243-a9cd-8d075e37d524> a ns1:ListItem ;
+    ns1:hasText "<b>Tachocline</b> – the boundary region between the radiative and convective zones." .
+
+<https://calvoritmo.com/tfm/data/fetch/301f6612-c706-4d72-a66e-4aaa15f00a27> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/e48e3f04-ec4d-4659-b2c7-9ef48600d4b6> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/576507b5-0ebf-45c5-988f-11c97876d600> ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first <https://calvoritmo.com/tfm/data/fetch/a173cdd3-9096-4f29-8ec7-7fe4189011be> ;
+                            rdf:rest [ a rdf:List ;
+                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/e76329dd-72e5-4688-aeeb-c14fa52030f0> ;
+                                    rdf:rest [ a rdf:List ;
+                                            rdf:first <https://calvoritmo.com/tfm/data/fetch/f9e6f4cd-7173-4d81-a9ee-b06c7112f24e> ;
+                                            rdf:rest () ] ] ] ] ] ;
+    ns1:hasSubsections [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/4dc79d63-8738-4f9f-aaf7-628937ac9d16> ;
+            rdf:rest () ] ;
+    ns1:hasTitle "Sun" .
+
+<https://calvoritmo.com/tfm/data/fetch/30ead80e-b406-4648-890f-7eac00e24296> a ns1:List ;
+    ns1:hasListItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/fd9846ba-d7c0-4a32-b5db-f7d95933b258> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/6dbcc356-bdea-4dd0-938a-50d7ae68ffc9> ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first <https://calvoritmo.com/tfm/data/fetch/13b35934-c374-4243-a9cd-8d075e37d524> ;
+                            rdf:rest [ a rdf:List ;
+                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/6e871374-9a37-48a4-a971-e11e22853e18> ;
+                                    rdf:rest () ] ] ] ] .
+
+<https://calvoritmo.com/tfm/data/fetch/4dc79d63-8738-4f9f-aaf7-628937ac9d16> a ns1:Section ;
+    ns1:hasSectionItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/90ff73f9-95f7-404b-9418-93a2dae5690e> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/30ead80e-b406-4648-890f-7eac00e24296> ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first <https://calvoritmo.com/tfm/data/fetch/b727cc0d-563d-4070-9209-d484e988c133> ;
+                            rdf:rest [ a rdf:List ;
+                                    rdf:first <https://calvoritmo.com/tfm/data/fetch/d2e1e6c4-2040-49c9-b9b2-a776863d9fc6> ;
+                                    rdf:rest () ] ] ] ] ;
+    ns1:hasSubsections () ;
+    ns1:hasTitle "Structure and fusion" .
+
+<https://calvoritmo.com/tfm/data/fetch/576507b5-0ebf-45c5-988f-11c97876d600> a ns1:Text ;
+    ns1:hasText "The <b>Sun</b> is the <a href=\"http://dbpedia.org/resource/Star\">star</a> at the center of the <a href=\"http://dbpedia.org/resource/Solar_System\">Solar System</a>. It is a nearly perfect <a href=\"http://dbpedia.org/resource/Ball_(mathematics)\">ball</a> of hot <a href=\"http://dbpedia.org/resource/Plasma_(physics)\">plasma</a>, heated to <a href=\"http://dbpedia.org/resource/Incandescence\">incandescence</a> by <a href=\"http://dbpedia.org/resource/Nuclear_fusion\">nuclear fusion</a> reactions in its core, radiating the <a href=\"http://dbpedia.org/resource/Energy\">energy</a> mainly as <a href=\"http://dbpedia.org/resource/Light\">visible light</a>, <a href=\"http://dbpedia.org/resource/Ultraviolet_light\">ultraviolet light</a>, and <a href=\"http://dbpedia.org/resource/Infrared\">infrared</a> radiation. It is by far the most important source of <a href=\"http://dbpedia.org/resource/Energy\">energy</a> for <a href=\"http://dbpedia.org/resource/Life\">life</a> on <a href=\"http://dbpedia.org/resource/Earth\">Earth</a>. Its diameter is about 1.39 million kilometers (864,000 miles), or 109 times that of Earth. <a href=\"http://dbpedia.org/resource/Solar_mass\">Its mass</a> is about 330,000 times that of Earth, and it accounts for about 99.86% of the total mass of the Solar System. Roughly three quarters of the Sun's <a href=\"http://dbpedia.org/resource/Mass\">mass</a> consists of <a href=\"http://dbpedia.org/resource/Hydrogen\">hydrogen</a> (~73%); the rest is mostly <a href=\"http://dbpedia.org/resource/Helium\">helium</a> (~25%), with much smaller quantities of heavier elements, including <a href=\"http://dbpedia.org/resource/Oxygen\">oxygen</a>, <a href=\"http://dbpedia.org/resource/Carbon\">carbon</a>, <a href=\"http://dbpedia.org/resource/Neon\">neon</a> and <a href=\"http://dbpedia.org/resource/Iron\">iron</a>." .
+
+<https://calvoritmo.com/tfm/data/fetch/6dbcc356-bdea-4dd0-938a-50d7ae68ffc9> a ns1:ListItem ;
+    ns1:hasText "<b>Radiative zone</b> – Convection cannot occur until much nearer to the surface of the Sun. Therefore, between about 20–25% of the radius, and 70% of the radius, there is a 'radiative zone' in which energy transfer occurs by means of radiation (photons) rather than by convection." .
+
+<https://calvoritmo.com/tfm/data/fetch/6e871374-9a37-48a4-a971-e11e22853e18> a ns1:ListItem ;
+    ns1:hasText "<b>Convective zone</b> – Between about 70% of the Sun's radius and a point close to the visible surface, the Sun is cool and diffuse enough for convection to occur, and this becomes the primary means of outward heat transfer, similar to weather cells which form in the earth's atmosphere." .
+
+<https://calvoritmo.com/tfm/data/fetch/90ff73f9-95f7-404b-9418-93a2dae5690e> a ns1:Text ;
+    ns1:hasText "The structure of the Sun contains the following layers:" .
+
+<https://calvoritmo.com/tfm/data/fetch/a173cdd3-9096-4f29-8ec7-7fe4189011be> a ns1:Text ;
+    ns1:hasText "According to its <a href=\"http://dbpedia.org/resource/Stellar_classification\">spectral class</a>, the Sun is a <a href=\"http://dbpedia.org/resource/G-type_main-sequence_star\">G-type main-sequence star</a> (G2V). As such, it is informally, and not completely accurately, referred to as a <a href=\"http://dbpedia.org/resource/G-type_main-sequence_star\">yellow dwarf</a> (its light is closer to white than yellow). It formed approximately 4.6 billion years ago from the <a href=\"http://dbpedia.org/resource/Gravitational_collapse\">gravitational collapse</a> of matter within a region of a large <a href=\"http://dbpedia.org/resource/Molecular_cloud\">molecular cloud</a>. Most of this matter gathered in the center, whereas the rest flattened into an orbiting disk that <a href=\"http://dbpedia.org/resource/Formation_and_evolution_of_the_Solar_System\">became the Solar System</a>. The central mass became so hot and dense that it eventually initiated <a href=\"http://dbpedia.org/resource/Nuclear_fusion\">nuclear fusion</a> in its <a href=\"http://dbpedia.org/resource/Solar_core\">core</a>. It is thought that almost all stars <a href=\"http://dbpedia.org/resource/Star_formation\">form by this process</a>." .
+
+<https://calvoritmo.com/tfm/data/fetch/b727cc0d-563d-4070-9209-d484e988c133> a ns1:Text ;
+    ns1:hasText """Because the Sun is a gaseous object, it does not have a clearly defined surface; its visible parts are usually divided into a 'photosphere' and 'atmosphere':
+""" .
+
+<https://calvoritmo.com/tfm/data/fetch/cc728633-b096-48ca-8d22-5f006c00c78c> a ns1:ListItem ;
+    ns1:hasText "<b>Atmosphere</b> – a gaseous 'halo' surrounding the Sun, comprising the <a href=\"http://dbpedia.org/resource/Chromosphere\">chromosphere</a>, <a href=\"http://dbpedia.org/resource/Solar_transition_region\">solar transition region</a>, <a href=\"http://dbpedia.org/resource/Solar_corona\">corona</a> and <a href=\"http://dbpedia.org/resource/Heliosphere\">heliosphere</a>. These can be seen when the main part of the Sun is hidden, for example, during a <a href=\"http://dbpedia.org/resource/Solar_eclipse\">solar eclipse</a>." .
+
+<https://calvoritmo.com/tfm/data/fetch/d2e1e6c4-2040-49c9-b9b2-a776863d9fc6> a ns1:List ;
+    ns1:hasListItems [ a rdf:List ;
+            rdf:first <https://calvoritmo.com/tfm/data/fetch/fdabb240-c19a-4144-a793-733b28eafe78> ;
+            rdf:rest [ a rdf:List ;
+                    rdf:first <https://calvoritmo.com/tfm/data/fetch/cc728633-b096-48ca-8d22-5f006c00c78c> ;
+                    rdf:rest () ] ] .
+
+<https://calvoritmo.com/tfm/data/fetch/e48e3f04-ec4d-4659-b2c7-9ef48600d4b6> a ns1:Text ;
+    ns1:hasText "" .
+
+<https://calvoritmo.com/tfm/data/fetch/e76329dd-72e5-4688-aeeb-c14fa52030f0> a ns1:Text ;
+    ns1:hasText "Every second, the Sun's core fuses about 600 million tons of hydrogen into helium, and in the process converts 4 million tons of <a href=\"http://dbpedia.org/resource/Mass–energy_equivalence\">matter into energy</a>. This energy, which can take between 10,000 and 170,000 years to escape the core, is the source of the Sun's light and heat. When <a href=\"http://dbpedia.org/resource/Hydrogen_fusion\">hydrogen fusion</a> in its core has diminished to the point at which the Sun is no longer in <a href=\"http://dbpedia.org/resource/Hydrostatic_equilibrium\">hydrostatic equilibrium</a>, its core will undergo a marked increase in density and temperature while its outer layers expand, eventually transforming the Sun into a <a href=\"http://dbpedia.org/resource/Red_giant\">red giant</a>. It is calculated that the Sun will become sufficiently large to engulf the current orbits of <a href=\"http://dbpedia.org/resource/Mercury_(planet)\">Mercury</a> and <a href=\"http://dbpedia.org/resource/Venus\">Venus</a>, and render Earth uninhabitable – but not for about five billion years. After this, it will shed its outer layers and become a dense type of cooling star known as a <a href=\"http://dbpedia.org/resource/White_dwarf\">white dwarf</a>, and no longer produce energy by fusion, but still glow and give off heat from its previous fusion." .
+
+<https://calvoritmo.com/tfm/data/fetch/f9e6f4cd-7173-4d81-a9ee-b06c7112f24e> a ns1:Text ;
+    ns1:hasText "The enormous effect of the Sun on Earth has been recognized since <a href=\"http://dbpedia.org/resource/Prehistoric_times\">prehistoric times</a>. The Sun was thought of <a href=\"http://dbpedia.org/resource/The_Sun_in_culture\">by some cultures</a> as a <a href=\"http://dbpedia.org/resource/Solar_deity\">deity</a>. The <a href=\"http://dbpedia.org/resource/Synodic_day\">synodic</a> rotation of Earth and its orbit around the Sun are the basis of some <a href=\"http://dbpedia.org/resource/Solar_calendar\">solar calendars</a>. The predominant <a href=\"http://dbpedia.org/resource/Calendar\">calendar</a> in use today is the <a href=\"http://dbpedia.org/resource/Gregorian_calendar\">Gregorian calendar</a> which is based upon the standard 16th-century interpretation that the Sun's observed movement is primarily due to it actually moving." .
+
+<https://calvoritmo.com/tfm/data/fetch/fd9846ba-d7c0-4a32-b5db-f7d95933b258> a ns1:ListItem ;
+    ns1:hasText "<b>Core</b> – the innermost 20–25% of the Sun's radius, where temperature and pressure are sufficient for <a href=\"http://dbpedia.org/resource/Nuclear_fusion\">nuclear fusion</a> to occur. Hydrogen fuses into helium (which cannot itself be fused at this point in the Sun's life). The fusion process releases energy, and the core gradually becomes enriched in helium." .
+
+<https://calvoritmo.com/tfm/data/fetch/fdabb240-c19a-4144-a793-733b28eafe78> a ns1:ListItem ;
+    ns1:hasText "<b>Photosphere</b> – the deepest part of the Sun which we can directly observe with visible light." .
+

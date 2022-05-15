@@ -1,0 +1,14 @@
+@prefix ns1: <https://calvoritmo.com/tfm/meta/> .
+@prefix ns2: <https://calvoritmo.com/tfm/datamodel/fetch/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://calvoritmo.com/tfm/data/fetch/1c68d465-9174-4b93-bb3d-d27ec280055b> a ns1:Stage ;
+    ns2:hasMainSection <https://calvoritmo.com/tfm/data/fetch/1d2a17f6-4b9a-4598-8f70-dcc14e0e471e> ;
+    ns1:hasParentStage ns1:bottom_stage ;
+    ns1:stageFriendlyName "Fetch Stage" .
+
+<https://calvoritmo.com/tfm/data/fetch/1d2a17f6-4b9a-4598-8f70-dcc14e0e471e> a ns2:Section ;
+    ns2:hasSectionItems () ;
+    ns2:hasSubsections () ;
+    ns2:hasTitle "{'messageTranslations':{'en':'The requested relative path (/v1/page/http://en.wikipedia.com/wiki/Sun/html) did not match any known handler'},'httpCode':404,'httpReason':'Not Found'}" .
+
