@@ -1,0 +1,12 @@
+body {
+	background: black;
+	color: lime;
+}
+.completed {
+	background: green;
+	color: black;
+}
+
+[v-cloak] {
+	display: none;
+}
